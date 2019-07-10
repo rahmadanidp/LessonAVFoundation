@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		333204B922D5B02D00E877B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333204B822D5B02D00E877B4 /* AppDelegate.swift */; };
+		333204BB22D5B02D00E877B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333204BA22D5B02D00E877B4 /* ViewController.swift */; };
+		333204BE22D5B02D00E877B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333204BC22D5B02D00E877B4 /* Main.storyboard */; };
+		333204C122D5B02D00E877B4 /* LessonAVFoundationCamera.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 333204BF22D5B02D00E877B4 /* LessonAVFoundationCamera.xcdatamodeld */; };
+		333204C322D5B02F00E877B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333204C222D5B02F00E877B4 /* Assets.xcassets */; };
+		333204C622D5B02F00E877B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333204C422D5B02F00E877B4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		333204B522D5B02D00E877B4 /* LessonAVFoundationCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LessonAVFoundationCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		333204B822D5B02D00E877B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		333204BA22D5B02D00E877B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		333204BD22D5B02D00E877B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		333204C022D5B02D00E877B4 /* LessonAVFoundationCamera.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LessonAVFoundationCamera.xcdatamodel; sourceTree = "<group>"; };
+		333204C222D5B02F00E877B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		333204C522D5B02F00E877B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		333204C722D5B02F00E877B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		333204B222D5B02D00E877B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		333204AC22D5B02D00E877B4 = {
+			isa = PBXGroup;
+			children = (
+				333204B722D5B02D00E877B4 /* LessonAVFoundationCamera */,
+				333204B622D5B02D00E877B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		333204B622D5B02D00E877B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				333204B522D5B02D00E877B4 /* LessonAVFoundationCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		333204B722D5B02D00E877B4 /* LessonAVFoundationCamera */ = {
+			isa = PBXGroup;
+			children = (
+				333204B822D5B02D00E877B4 /* AppDelegate.swift */,
+				333204BA22D5B02D00E877B4 /* ViewController.swift */,
+				333204BC22D5B02D00E877B4 /* Main.storyboard */,
+				333204C222D5B02F00E877B4 /* Assets.xcassets */,
+				333204C422D5B02F00E877B4 /* LaunchScreen.storyboard */,
+				333204C722D5B02F00E877B4 /* Info.plist */,
+				333204BF22D5B02D00E877B4 /* LessonAVFoundationCamera.xcdatamodeld */,
+			);
+			path = LessonAVFoundationCamera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		333204B422D5B02D00E877B4 /* LessonAVFoundationCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333204CA22D5B02F00E877B4 /* Build configuration list for PBXNativeTarget "LessonAVFoundationCamera" */;
+			buildPhases = (
+				333204B122D5B02D00E877B4 /* Sources */,
+				333204B222D5B02D00E877B4 /* Frameworks */,
+				333204B322D5B02D00E877B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LessonAVFoundationCamera;
+			productName = LessonAVFoundationCamera;
+			productReference = 333204B522D5B02D00E877B4 /* LessonAVFoundationCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		333204AD22D5B02D00E877B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Rahmadani Pratiwi";
+				TargetAttributes = {
+					333204B422D5B02D00E877B4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 333204B022D5B02D00E877B4 /* Build configuration list for PBXProject "LessonAVFoundationCamera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 333204AC22D5B02D00E877B4;
+			productRefGroup = 333204B622D5B02D00E877B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				333204B422D5B02D00E877B4 /* LessonAVFoundationCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		333204B322D5B02D00E877B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333204C622D5B02F00E877B4 /* LaunchScreen.storyboard in Resources */,
+				333204C322D5B02F00E877B4 /* Assets.xcassets in Resources */,
+				333204BE22D5B02D00E877B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		333204B122D5B02D00E877B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333204BB22D5B02D00E877B4 /* ViewController.swift in Sources */,
+				333204B922D5B02D00E877B4 /* AppDelegate.swift in Sources */,
+				333204C122D5B02D00E877B4 /* LessonAVFoundationCamera.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		333204BC22D5B02D00E877B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				333204BD22D5B02D00E877B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		333204C422D5B02F00E877B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				333204C522D5B02F00E877B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		333204C822D5B02F00E877B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		333204C922D5B02F00E877B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		333204CB22D5B02F00E877B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7K4RYQ43A3;
+				INFOPLIST_FILE = LessonAVFoundationCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahmadanidp.LessonAVFoundationCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		333204CC22D5B02F00E877B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7K4RYQ43A3;
+				INFOPLIST_FILE = LessonAVFoundationCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahmadanidp.LessonAVFoundationCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		333204B022D5B02D00E877B4 /* Build configuration list for PBXProject "LessonAVFoundationCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333204C822D5B02F00E877B4 /* Debug */,
+				333204C922D5B02F00E877B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		333204CA22D5B02F00E877B4 /* Build configuration list for PBXNativeTarget "LessonAVFoundationCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333204CB22D5B02F00E877B4 /* Debug */,
+				333204CC22D5B02F00E877B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		333204BF22D5B02D00E877B4 /* LessonAVFoundationCamera.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				333204C022D5B02D00E877B4 /* LessonAVFoundationCamera.xcdatamodel */,
+			);
+			currentVersion = 333204C022D5B02D00E877B4 /* LessonAVFoundationCamera.xcdatamodel */;
+			path = LessonAVFoundationCamera.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 333204AD22D5B02D00E877B4 /* Project object */;
+}
